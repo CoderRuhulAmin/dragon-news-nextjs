@@ -1,0 +1,18 @@
+import React from 'react';
+
+export const metadata = {
+	title: "Dragon News - About Us",
+	description: "Best news portal in Bangladesh",
+};
+
+const AboutPage = () => {
+    return (
+        <div className='container mx-auto'>
+            <div className="flex justify-center items-center min-h-50">
+                <h2 className='text-2xl font-bold'>About us page</h2>
+            </div>
+        </div>
+    );
+};
+
+export default AboutPage;
