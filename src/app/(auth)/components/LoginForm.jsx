@@ -41,7 +41,7 @@ const LoginForm = () => {
         if (error) {
             alert(error.message);
         }
-        if (res) {
+        if (data) {
             alert("Login successful");
         }
     }
